@@ -1,0 +1,26 @@
+{
+  "name": "vanqard/vantypes",
+  "description": "A collection of handy DBAL types",
+  "keywords": ["Doctrine", "Custom types"],
+  "homepage": "https://github.com/vanqard/vantypes",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thunder Raven-Stoker",
+      "email": "thunder@vanqard.com",
+      "homepage": "http://phpbrilliance.com/book#author"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "~2.6.3",
+    "zumba/json-serializer": "^2.1",
+    "jeremeamia/SuperClosure": "^2.3"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Vanqard\\VanTypes\\": "VanTypes"
+    }
+  }
+}
